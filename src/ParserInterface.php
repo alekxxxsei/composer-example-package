@@ -1,5 +1,7 @@
 <?php
 
+namespace alekxxxsei\parser;
+
 /**
  *
  * @author aleksei

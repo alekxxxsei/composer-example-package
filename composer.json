@@ -1,0 +1,21 @@
+{
+    "name": "alekxxxsei/composer-example-package",
+    "description": "Example project",
+    "type": "library",
+    "require": {
+        "php": "^8.4"
+    },
+    "license": "BSD-3-Clause",
+    "autoload": {
+        "psr-4": {
+            "alekxxxsei\\parser\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alekxxxsei",
+            "email": "080923@mail.ru"
+        }
+    ],
+    "minimum-stability": "stable"
+}
