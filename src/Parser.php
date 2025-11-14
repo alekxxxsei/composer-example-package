@@ -2,7 +2,7 @@
 
 namespace alekxxxsei\parser;
 
-use ParserInterface;
+use alekxxxsei\parser\ParserInterface;
 
 /**
  * Description of Parser
@@ -13,7 +13,7 @@ class Parser implements ParserInterface
 {
     public function process(string $url, string $tag): array 
     {
-        $htmlPage = gile_get_contents($url);
+        $htmlPage = file_get_contents($url);
         
         if ($htmlPage === false) {
             return ['invalid URL'];
